@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Love Letter</title>
+  <!-- style.css -->
+  <link rel="stylesheet" href="css/style.css" />
+  <!-- AOS cdn -->
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+  <!-- font awesome cdn -->
+  <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+    integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+    crossorigin="anonymous"
+    referrerpolicy="no-referrer"
+  />
+</head>
+<body>
+  <!-- music background -->
+  <audio id="bg-music" autoplay loop>
+    <source
+      src="assets/audio/Old Love - Yuji  Putri Dahlia (Official Lyrics Video).mp3"
+      type="audio/mpeg"
+    />
+  </audio>
+  
+  <div class="wrapper">
+    <div 
+      class="container"
+      data-aos="zoom-out"
+      data-aos-duration="2000"
+      data-aos-offset="0"
+    >
+      <!-- <i class="fa-regular fa-hand-point-down fa-bounce pointer"></i> -->
+      <i class="fa-solid fa-arrow-down fa-bounce pointer"></i>
+      <div class="envelope-container">
+        <div class="lid"></div>
+        <div class="left-cover"></div>
+        <div class="right-cover"></div>
+        <div class="bottom-cover"></div>
+        <div class="envelope">
+          <div class="letter">
+            <p>Dear Love ❤️,</p>
+            <p>
+              You are the light of my life, the joy in my heart, and the reason
+              for my smile. Every moment with you is a blessing.
+            </p>
+            <p>Forever Yours,</p>
+            <p>❤️ OudomPanha</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="question">
+      <p class="text">Will you be my valentine?</p>
+      <div class="btn-group">
+        <Button class="yes-btn">
+          YESSSS
+        </Button>
+        <Button class="no-btn">
+          NO
+        </Button>
+      </div>
+    </div>
+  </div>
+
+  <!-- AOS.js -->
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <!-- confetti -->
+  <script src="https://cdn.jsdelivr.net/npm/js-confetti@latest/dist/js-confetti.browser.js"></script>
+  <!-- script.css -->
+  <script src="js/script.js" type="module"></script>
+</body>
+</html>
